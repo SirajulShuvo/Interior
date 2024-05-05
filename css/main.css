@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-color: #3B5D50;
+    overflow: hidden;
+    position: relative;
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 30px 50px;
+    background: transparent;
+}
+.logo{
+    flex: 1;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h1{
+    color: white;
+    font-size: 30px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: 1s all linear!important;
+    letter-spacing: 1px;
+}
+.menu-icon{
+    display: none;
+}
+.shop-icon img{
+    margin: 0 10px;
+    width: 18px;
+    height: 18px;
+    /* object-fit: cover; */
+}
+.navactive{
+    text-decoration: underline;
+    transition: 1s all linear!important;
+}
+.hero-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
+.hero-left{
+    width: 50%;
+    color: white;
+}
+.hero-left h1{
+    font-size: 50px;
+}
+.hero-left p{
+    line-height: 25px;
+    padding: 20px 0;
+}
+.hero-left button{
+    padding: 20px 30px;
+    outline: none;
+    color: white;
+    /* background-color: transparent; */
+    /* border: 1px solid white; */
+    font-size: 18px;
+    border-radius: 10px;
+}
+.hero-right{
+    width: 50%;
+}
