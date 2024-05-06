@@ -1,7 +1,6 @@
 // Link hover effect
 function linkHover(){
     const navLink = Array.from(document.querySelectorAll('#navlink'));
-    // console.log(navLink)
     navLink.forEach((element) => {
         element.addEventListener('mouseover',(e) =>{
             element.classList.add('navactive');
