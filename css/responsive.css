@@ -48,4 +48,12 @@
     .footer-last{padding: 0 10px;flex-direction: column}
     .footer-last a{padding: 0;}
     /* Footer section end */
+
+    /* testomonial section start */
+    .testimonials{padding: 30px 0;height: 620px}
+    .testomonial-card{padding: 10px 0px}
+    .testomonial-info{width: 100%}
+    .arrow-left{display: none;}
+    .arrow-right{display: none;}
+    /* testomonial section end */
 }
